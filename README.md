@@ -1,0 +1,2 @@
+# WorkDayWorks
+input hours easily
