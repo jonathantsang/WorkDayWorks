@@ -27,7 +27,7 @@ window.addEventListener('load', function() {
                 // 4 are allocated as default for in/out
                 let inputBoxes = document.getElementsByClassName('gwt-TextBox WEE2 WLE2');
                 // TESTING for 0 index not 1-5
-                for(let i = 0; i <= 0; i++){
+                for(let i = 1; i <= 5; i++){
                     let idx = i * 4;
                     inputBoxes[idx].value = "09:00 AM";
                     inputBoxes[idx+1].value = "12:00 PM";
